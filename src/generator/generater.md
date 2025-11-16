@@ -1,0 +1,1 @@
+genretaion code for Kolam
