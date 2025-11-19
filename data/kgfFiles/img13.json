@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "source": "img13.jpg",
+    "kgf_version": "1.0"
+  },
+  "grid": {
+    "type": "square",
+    "rows": 7,
+    "cols": 7
+  },
+  "strokes": [
+    {
+      "id": "border_frame",
+      "type": "rectangular_wave_frame",
+      "closed": true,
+      "points": "Encloses outer 2 rows/cols"
+    },
+    {
+      "id": "inner_motif_1",
+      "type": "diamond_insert",
+      "closed": true,
+      "location": "center_left"
+    },
+    {
+      "id": "inner_motif_2",
+      "type": "diamond_insert",
+      "closed": true,
+      "location": "center_right"
+    },
+    {
+      "id": "inner_motif_3",
+      "type": "diamond_insert",
+      "closed": true,
+      "location": "center_top"
+    },
+    {
+      "id": "inner_motif_4",
+      "type": "diamond_insert",
+      "closed": true,
+      "location": "center_bottom"
+    }
+  ],
+  "topology": {
+    "components": 5,
+    "loops": 5
+  }
+}
